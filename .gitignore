@@ -1,0 +1,25 @@
+# Python cache files
+*.pyc
+
+# Local virtual environment
+venv/
+
+# Ignore pip-specific files
+*.lock
+
+# Ignore pipenv-specific files
+Pipfile*
+
+# Ignore virtualenv-specific files
+.venv/
+venv/
+
+# Ignore distribution files
+*.egg-info/
+dist/
+
+# Ignore test and debugging files
+*.log
+test/
+tests/
+*.pdb

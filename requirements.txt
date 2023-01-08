@@ -1,0 +1,3 @@
+Pillow==9.4.0
+PyAutoGUI==0.9.53
+virtualenv==20.16.5
