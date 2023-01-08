@@ -34,18 +34,19 @@ class Keys:
 # Add function keys
   key['BACKSP'] = [1080, 55]
   key['ENTER'] = [1100, 250]
-  key['PGUP'] = [1250, 55]
-  key['PGDN'] = [1250, 90]
-  key['HOME'] = [1180, 55]
   key['END'] = [1180, 90]
-  
+  key['PRTSCN'] = [1180, 150]
+  key['DEL'] = [1100, 85]
+
   # Add modifier keys
   key['LSHIFT'] = [50, 230]
   key['CTRL'] = [90, 260]
   key['ALT'] = [190, 260]
   
   # Add function keys
-  key['INS'] = [1180, 125]
-  key['DEL'] = [1100, 85]
-  key['END'] = [1185, 85]
-  key['PRTSCN'] = [1180, 150]
+  key['HOME'] = [850, 100]
+  key['PGUP'] = [900, 100]
+  key['END'] = [850, 150]
+  key['PGDN'] = [900, 150]
+  key['INS'] = [850, 200]
+ 
