@@ -21,4 +21,16 @@ class Bot():
     def click(self, key, duration, clicks=1):
         self._moveTo(key)
         pyautogui.click(duration=duration, clicks=clicks)
-        time.sleep(0.25)
+        # time.sleep(0.15)
+    
+    def jump(self, key1, key2, duration):
+        self._moveTo(key1)
+        pyautogui.mouseDown()
+        time.sleep(0.05)
+        pyautogui.mouseUp()
+        self._moveTo(key2)
+        pyautogui.mouseDown()
+        time.sleep(duration)
+        pyautogui.mouseUp()
+        
+        
