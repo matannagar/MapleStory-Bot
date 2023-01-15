@@ -3,6 +3,9 @@
 This repository contains a Python script that uses the pyautogui library to play the game MapleStory.  
 It utilizes the on-screen keyboard of the user's computer (by using the OpenCV library to recognize the keyboard) to move the player in the game.  
 
+## Why? 🤷
+It's important to note that MapleStory, like many online games, has anti-cheat measures in place to detect and prevent the use of automated tools, such as virtual keyboard presses, to play the game. The use of such tools is a violation of the game's terms of service and can result in account suspension or ban. It's recommended to use this script only for educational or testing purposes and not for actual gameplay.
+
 ## Getting Started 🚀
 ### Prerequisites 📋
 * Python 3.x
