@@ -49,4 +49,3 @@ class Keys:
   key['END'] = [850, 150]
   key['PGDN'] = [900, 150]
   key['INS'] = [850, 200]
- 
