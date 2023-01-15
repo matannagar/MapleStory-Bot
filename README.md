@@ -14,6 +14,14 @@ It's important to note that MapleStory, like many online games, has anti-cheat m
 * PyAutoGUI
 * opencv-python
 
+### Files
+* **Bot.py**: This file contains the main Bot class that controls the bot's actions in the game. It uses the pyautogui library to move the cursor and simulate mouse clicks on the on-screen keyboard.
+* **Keys.py**: This file contains a dictionary of the coordinates of all the keys on the on-screen keyboard. The Bot class uses these coordinates to move the cursor to the correct key.
+* **keyboard.png**: This is an image of the on-screen keyboard that is used by the pyautogui.locateOnScreen() function to locate the keyboard on the screen.
+* **main.py**: This is the main script that runs the bot. It creates an instance of the Bot class, starts the buffing and roaming threads, and manages the execution of the bot.
+* **requirements.txt**: This file lists all the Python packages that are required to run the bot.
+* **tests.py**: This is a script that can be used to test the accuracy of the coordinates in the Keys.py file. It will click on each key on the keyboard one by one.
+
 ### Installing 🔧
 1. Windows:
 * Create a new virtual environment with the command `virtualenv env`
